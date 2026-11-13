@@ -256,3 +256,141 @@ h2 { margin: 0; font-size: clamp(34px, 4vw, 49px); line-height: 1.18; letter-spa
   .project-grid-visual .project-card { min-height: 0; }
   .project-card-body { padding: 18px; }
 }
+
+
+/* Typography refinement — improved readability */
+:root {
+  --font-scale: 1px;
+}
+
+/* Navigation and interface */
+.nav-links a {
+  font-size: 12px;
+}
+
+.brand-name {
+  font-size: 11px;
+}
+
+.button {
+  font-size: 12px;
+}
+
+.text-link {
+  font-size: 11px;
+}
+
+/* Hero */
+.eyebrow {
+  font-size: 10px;
+}
+
+.hero-lead {
+  font-size: 15px;
+}
+
+/* Section labels and descriptions */
+.section-kicker,
+.aside-label,
+.project-overline,
+.card-topline,
+.visual-top,
+.visual-bottom,
+.research-status,
+.education-date,
+.education-top,
+.language-label {
+  font-size: 10px;
+}
+
+.section-description {
+  font-size: 14px;
+}
+
+/* About */
+.about-main p {
+  font-size: 14px;
+}
+
+/* Projects */
+.featured-content > p {
+  font-size: 12px;
+}
+
+.project-tagline {
+  font-size: 14px !important;
+}
+
+.flow-list div {
+  font-size: 11px;
+}
+
+.tech-list span,
+.skill-tags span,
+.subject-list span,
+.research-tags span {
+  font-size: 9px;
+}
+
+.project-card p {
+  font-size: 12px;
+}
+
+.project-card-body {
+  line-height: 1.75;
+}
+
+/* Research and education */
+.research-copy p,
+.education-content p {
+  font-size: 12px;
+}
+
+/* Skills and experience */
+.experience-stat span,
+.experience-list p {
+  font-size: 11px;
+}
+
+/* Contact */
+.contact-lead {
+  font-size: 14px;
+}
+
+/* Footer and secondary information */
+.project-contribution,
+.text-muted-small,
+.projects-footnote,
+.footer-inner > span {
+  font-size: 9px;
+}
+
+/* Mobile refinement */
+@media (max-width: 680px) {
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .hero-lead,
+  .contact-lead {
+    font-size: 13px;
+  }
+
+  .about-main p,
+  .project-card p,
+  .research-copy p,
+  .education-content p {
+    font-size: 13px;
+  }
+
+  .featured-content > p {
+    font-size: 12px;
+  }
+
+  .tech-list span,
+  .skill-tags span,
+  .subject-list span,
+  .research-tags span {
+    font-size: 9px;
+  }
+}
