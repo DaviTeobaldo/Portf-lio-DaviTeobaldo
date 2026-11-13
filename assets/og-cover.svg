@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5e8db"/><stop offset=".55" stop-color="#78b9e9"/><stop offset="1" stop-color="#9bafff"/>
+    </linearGradient>
+    <pattern id="p" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#7892aa" stroke-opacity=".12"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#080d17"/>
+  <rect width="1200" height="630" fill="url(#p)"/>
+  <circle cx="980" cy="310" r="230" fill="none" stroke="#70d9d1" stroke-opacity=".25"/>
+  <circle cx="980" cy="310" r="165" fill="none" stroke="#7fa8ff" stroke-opacity=".3" transform="rotate(35 980 310) scale(1 .55)"/>
+  <circle cx="980" cy="310" r="95" fill="#112536" stroke="#70d9d1" stroke-opacity=".55"/>
+  <text x="980" y="340" text-anchor="middle" font-family="Georgia,serif" font-size="100" fill="#70d9d1">∑</text>
+  <text x="85" y="185" font-family="Arial,sans-serif" font-size="18" letter-spacing="5" fill="#70d9d1">MATEMÁTICA · DADOS · IA</text>
+  <text x="85" y="290" font-family="Arial,sans-serif" font-size="58" font-weight="700" fill="#edf3fa">Davi Oliveira</text>
+  <text x="85" y="360" font-family="Arial,sans-serif" font-size="58" font-weight="700" fill="url(#g)">Teobaldo.</text>
+  <text x="88" y="425" font-family="Arial,sans-serif" font-size="22" fill="#a8b6c7">Matemática Aplicada e Computacional · IME-USP</text>
+  <text x="88" y="470" font-family="Arial,sans-serif" font-size="18" fill="#718195">Machine Learning  /  Generative AI  /  Software Engineering</text>
+</svg>
